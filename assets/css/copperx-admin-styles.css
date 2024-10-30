@@ -1,0 +1,299 @@
+
+.wc-copperx{
+  background: #E9EDF5;
+  padding: 20px;
+}
+
+h1,h2,h3,h4,h5{
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.wc-copperx-container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  max-width: 1158px;
+  width: 100%;
+}
+
+.wc-copperx-container .setting-section {
+  display: flex;
+  margin-bottom: 35px;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.wc-copperx-container .setting-section-info {
+  flex: 0 0 379px;
+}
+
+.wc-copperx-container .setting-section-info h2 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+  margin-bottom: 7px;
+}
+
+.wc-copperx-container .setting-section-info p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 21px;
+}
+
+.setting-section-info .extra-info{
+  margin-top: 21px;
+}
+
+.wc-copperx-container .setting-section-info .extra-info a {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5F76F9;
+  outline: none !important;
+}
+
+.wc-copperx-container .setting-section-form {
+  background: white;
+  border: 1px solid #D5DBE6;
+  box-sizing: border-box;
+  flex: 1 1 auto;
+  height: 100%;
+  padding: 29px 35px;
+}
+
+.wc-copperx-container .setting-section-form h2 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.wc-copperx-container .setting-section-form fieldset br{
+  display: none;
+}
+
+.wc-copperx-container .setting-section-form fieldset .description{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #6A7385;
+  margin: 0;
+  margin-bottom: 19px;
+  margin-left: 24px;
+}
+
+.wc-copperx-container .setting-section-form fieldset .description .switch-description{
+  margin-left: 13px;
+  display: block;
+}
+
+.wc-copperx-container .setting-section-form input[type="text"].switch-text-field{
+  margin-left: 39px;
+  width: calc(100% - 39px);
+}
+
+.wc-copperx-container .setting-section-form input[type="text"].switch-text-field.copperx-test-secret-key-text-field{
+  display: none;
+}
+
+.wc-copperx-container .setting-section-form fieldset input[type=checkbox]{
+  margin: 0;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(106, 115, 133, 0.2), 0px 2px 5px rgba(90, 99, 118, 0.1);
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.wc-copperx-container .setting-section-form fieldset input[type=checkbox]:checked{
+  background: #2149EB;
+}
+
+.wc-copperx-container .setting-section-form fieldset input[type=checkbox]:checked::before{
+  background: url('./../images/check.svg') no-repeat center center;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 4px;
+  top: 3px;
+}
+
+
+.wc-copperx-container .setting-section-form fieldset input[type="checkbox"].switch {
+  position: relative;
+  width: 28px;
+  height: 16px;
+  -webkit-appearance: none;
+  background: #ECEDEE;
+  outline: none;
+  box-shadow: 0px 0px 0px 1px #ECEDEE;
+  border-radius: 4px;
+  transition: 0.7s;
+  border: 0;
+  margin: 0;
+}
+
+.wc-copperx-container .setting-section-form fieldset input:checked[type="checkbox"].switch {
+  background: #4C63ED;
+  box-shadow: 0px 0px 0px 1px #4358D1;
+}
+
+.wc-copperx-container .setting-section-form fieldset input[type="checkbox"].switch:before {
+  content: '';
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.14), 0px 1px 2px rgba(0, 0, 0, 0.24), 0px 0px 0px 1px rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  top: 1px;
+  left: 1px;
+  transition: .5s;
+  margin: 0;
+}
+
+.wc-copperx-container .setting-section-form fieldset input:checked[type="checkbox"].switch:before {
+  left: 14px;
+}
+
+.wc-copperx-container .setting-section-form fieldset label{
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.wc-copperx-container .setting-section-form > p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  margin: 0;
+  margin-bottom: 22px;
+}
+
+.wc-copperx-container .setting-section-form h2 {
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+  margin-bottom: 8px;
+}
+
+.wc-copperx-container .setting-section-form label{
+  font-size: 14px;
+  line-height: 20px;
+  color: #464F60;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.wc-copperx-container .setting-section-form label .switch-title{
+  margin-left: 39px;
+  display: block;
+}
+
+.wc-copperx-container .setting-section-form label .switch-title.copperx-test-secret-key-label{
+  display: none;
+}
+
+.wc-copperx-container .setting-section-form input[type="text"] {
+  min-height: 32px;
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+  padding: 6px 12px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.06), 0px 0px 0px 1px rgba(106, 115, 133, 0.16); 
+  border-radius: 8px;
+  border: 0;
+  color: #000;
+  margin-bottom: 26px;
+}
+
+.wc-copperx-container .submit {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+
+.wc-copperx .button {
+  padding: 6px 10px;
+  background: #2954FF;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.wc-copperx .button:hover, .wc-copperx .button:focus{
+  background: #2149EB;
+  color: white;
+}
+
+.landing-screen-wrap{
+  max-width: 739px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid #D5DBE5;
+  background: #fff;
+  margin: 40px auto;
+}
+
+.landing-screen-wrap .landing-logo{
+  background: #5F76F9;
+  padding: 61px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-screen-wrap .landing-content{
+  padding: 28px 33px;
+}
+
+.landing-screen-wrap .landing-content h2{
+  font-size: 20px;
+  line-height: 28px;
+  color: #000;
+  margin-bottom: 14px;
+}
+
+.landing-screen-wrap .landing-content p{
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.landing-screen-wrap .landing-content .api-btn{
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  text-decoration: none;
+}
+
+.btn-wrap{
+  margin-bottom: 22px;
+  margin-top: 37px;
+}
+
+
+@media screen and (max-width: 799px) {
+  .wc-copperx-container section {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+  }
+}
+
+.wc-copperx-container .setting-section-form .copperx-webhook-setup-description li p{
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
